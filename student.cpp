@@ -30,6 +30,7 @@ class Result : public Student,public Test
 
     void setmarks()
     {
+        fflush(0);
         for(int i=1;i<=5;i++)
         {
             cout<<"Enter marks for subject: ";
