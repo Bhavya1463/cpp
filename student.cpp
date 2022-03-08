@@ -32,7 +32,7 @@ class Result : public Student,public Test
     {
         for(int i=1;i<=5;i++)
         {
-            cout<<"Enter marks for subject %d: "<<i;
+            cout<<"Enter marks for subject: ";
             cin>>marks[i];
         }
     }
@@ -44,13 +44,13 @@ class Result : public Student,public Test
         {
             totalmarks=totalmarks + marks[i];
         }
-        cout<<"Total Marks: %.2f"<<totalmarks;
+        cout<<"Total Marks: "<<totalmarks;
     }
 
     void percentage()
     {
         per=(totalmarks/500)*100;
-        cout<<"Percentage: %.2f"<<per;
+        cout<<"Percentage: "<<per;
         cout<<"\n";
     }
 };
