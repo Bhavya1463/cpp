@@ -27,11 +27,12 @@ class Result : public Student,public Test
             cout<<"Name of student: ";
             cin>>name;
     }
-
+    
     void setmarks()
     {
+        
         fflush(0);
-        for(int i=1;i<=5;i++)
+        for(int i=0;i<5;i++)
         {
             cout<<"Enter marks for subject: ";
             cin>>marks[i];
@@ -58,6 +59,7 @@ class Result : public Student,public Test
 
 int main()
 {
+
     Result r1;
     r1.setinput();
     r1.setmarks();
