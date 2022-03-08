@@ -1,15 +1,11 @@
 #include<iostream>
 using namespace std;
 
-int main()
+class person//base class
 {
-    int i;
-    cout<<"THis is a output";
-
-    cout<<"Enter a number: ";
-    cin>>i;
-
-    cout<<"the square of number is :"<<i*i;
-
-    return 0;
-}
+    //body of class
+};
+class doctor: public person// derived class
+{
+    //body of class
+};
